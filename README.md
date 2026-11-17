@@ -1,4 +1,21 @@
 
+## Task 2: Hugging Face Spaces Deployment
+
+Hugging Face Spaces deployment was explored as part
+of this assignment.
+
+However, the available free account options did not
+support the required Gradio/Docker compute deployment.
+
+Therefore, the application was not deployed on
+Hugging Face Spaces because the available deployment
+options required a paid plan.
+
+The application was successfully deployed using
+Streamlit Community Cloud instead.
+
+
+
 ---
 title: AI Coding Assistant
 emoji: 💻
@@ -71,6 +88,15 @@ The project is uploaded to GitHub and deployed using Streamlit Community Cloud.
 
 The deployed application is tested using its public Streamlit URL.
 
+
+### Live Application URL
+
+The AI Coding Assistant is deployed on Streamlit Community Cloud.
+
+**Live URL:** https://genai-assignment39-coding-assistant-hgjytg6mfbvshjsgsxqsla.streamlit.app
+
+
+
 ## Task 2: Hugging Face Spaces Deployment
 
 The application is deployed using Hugging Face Spaces with Docker and Streamlit.
@@ -80,6 +106,15 @@ The Groq API key is configured securely through Space settings.
 The deployed application is tested using its Hugging Face URL.
 
 ## Task 3: Platform Comparison
+
+| Feature | Streamlit Community Cloud | Hugging Face Spaces |
+|---|---|---|
+| Main purpose | Deploy Streamlit apps | Host AI and ML applications |
+| Framework support | Streamlit | Gradio, Docker, Static |
+| Ease of deployment | Easy | Easy with supported SDK |
+| GitHub integration | Yes | Yes |
+| Free deployment | Available | Depends on SDK and hardware |
+| Best suited for | Data apps and dashboards | AI demos and ML applications |
 
 ### Streamlit Cloud
 
@@ -117,8 +152,13 @@ Streamlit Cloud is suitable for quickly deploying and sharing Streamlit applicat
 
 Hugging Face Spaces is suitable for hosting AI and machine learning demonstrations, especially when Docker configuration or Hugging Face integration is required.
 
+
 ## Conclusion
 
 This assignment demonstrates how a Generative AI application can be deployed and made accessible to users through cloud platforms.
 
-The same AI coding assistant was prepared for deployment on Streamlit Community Cloud and Hugging Face Spaces.
+The AI Coding Assistant was successfully deployed on Streamlit Community Cloud.
+
+Hugging Face Spaces deployment was explored, but the required Gradio/Docker compute option was not available on the free account used for this assignment.
+
+Streamlit Community Cloud was selected as the final deployment platform because it provides a simple way to deploy and share Python-based Streamlit applications.
